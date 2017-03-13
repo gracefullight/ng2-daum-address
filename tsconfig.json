@@ -3,10 +3,12 @@
         "noImplicitAny": true,
         "module": "commonjs",
         "target": "ES5",
+        "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": false,
-        "declaration": true
+        "declaration": true,
+        "removeComments": true
     },
     "files": [
         "index.ts"
