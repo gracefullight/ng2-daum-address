@@ -8,3 +8,6 @@ Thumbs.db
 *.js
 *.map
 *.d.ts
+#demo
+demo/dist
+demo/e2e

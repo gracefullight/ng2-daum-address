@@ -26,14 +26,18 @@ export class DaumAddressComponent implements OnInit{
 
   private el: ElementRef;
   private styleClass: String;
+  private debug: false;
   constructor(el: ElementRef) {
     this.el = el;
   }
 
   ngOnInit(){
+    this.debug = this.options && this.options.debug ? this.options.debug : false;
     this.styleClass = this.options && this.options.class ? Array.isArray(this.options.class) ? this.options.class.join(" ") : this.options.class : '';
     this.loadDaumApi().then(()=>{
-      console.log('daum api loaded');
+      if(this.debug){
+        console.log('daum api loaded');
+      }
     });
   }
 
@@ -42,6 +46,10 @@ export class DaumAddressComponent implements OnInit{
     daum.postcode.load(() => {
       new daum.Postcode({
           oncomplete: function(data){
+              if(self.debug){
+                console.log(data);
+              }
+
               let fullAddr = '', extraAddr = '', engAddr = '', zipCode = '';
               if (data.userSelectedType === 'R') {
                 fullAddr = data.roadAddress;

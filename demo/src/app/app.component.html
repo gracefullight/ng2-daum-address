@@ -4,36 +4,48 @@
       <h1 class="card-title">다음 주소 검색 API for Angular2</h1>
     </div>
     <div class="card-block">
-        <form [formGroup]="addrForm" (ngSubmit)="submitForm()">
-          <div class="form-group row">
-            <div class="col-md-4">
-              <input type="text" class="form-control input-md" formControlName="zip" placeholder="zip" readonly>
-            </div>
-            <div class="col-md-8">
-              <btn-daum-address (result)="setDaumAddressApi($event)" [options]="daumAddressOptions"></btn-daum-address>
-            </div>
+      <form [formGroup]="addrForm" (ngSubmit)="submitForm()">
+        <div class="form-group row">
+          <div class="col-md-4">
+            <input type="text" class="form-control input-md" formControlName="zip" placeholder="zip" readonly>
           </div>
-          <div class="form-group row">
-            <div class="col-md-7">
-              <input type="text" class="form-control input-md" formControlName="addr" placeholder="addr" readonly>
-            </div>
-            <div class="col-md-5">
-              <input type="text" class="form-control input-md" formControlName="addrDetail" placeholder="addrDetail" #addrDetail>
-            </div>
+          <div class="col-md-8">
+            <btn-daum-address (result)="setDaumAddressApi($event)" [options]="daumAddressOptions"></btn-daum-address>
           </div>
-          <div class="form-group row">
-            <div class="col-md-7">
-              <input type="text" class="form-control input-md" formControlName="addrEng" placeholder="addrEng" readonly>
-            </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-7">
+            <input type="text" class="form-control input-md" formControlName="addr" placeholder="addr" readonly>
           </div>
-            <button type="submit" class="btn btn-danger">전송</button>
-          </form>
-      </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control input-md" formControlName="addrDetail" placeholder="addrDetail" #addrDetail>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-7">
+            <input type="text" class="form-control input-md" formControlName="addrEng" placeholder="addrEng" readonly>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger">전송</button>
+        <button type="reset" class="btn btn-default">초기화</button>
+      </form>
+    </div>
   </div>
   <div class="card">
     <div class="card-block">
-        <label>결과</label>
-        <textarea class="form-control" rows="7" [ngStyle]="{'resize':'none'}">{{formData}}</textarea>
+      <label>결과</label>
+      <textarea class="form-control" rows="7" [ngStyle]="{'resize':'none'}">{{formData}}</textarea>
     </div>
   </div>
 </div>
+<footer [ngStyle]="{ 'position': 'absolute',
+'bottom': '0',
+'width': '100%',
+'height': '50px',
+'line-height': '50px',
+'background-color': '#f5f5f5'
+}">
+<div class="container">
+  <span class="text-muted">Made with ❤ by <a href="https://brendaniel.github.io/" target="_blank">GracefulLight</a></span>
+</div>
+</footer>
