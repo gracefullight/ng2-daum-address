@@ -44,11 +44,16 @@ setDaumAddressApi(data){
 }
 ```
 
+## 옵션
+* class: Array|String => 클래스 부여
+* 추가예정..
+
+
 자세한 예제는 [여기서][example-page] 확인 가능합니다.
 
 ## License
 
-[MIT](LICENSE.md)
+[MIT](https://github.com/brendaniel/ng2-daum-address/blob/master/LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/ng2-daum-address.svg
 [npm-url]: https://npmjs.org/package/ng2-daum-address
