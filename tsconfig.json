@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
-    "target": "es5",
+    "removeComments": true,
     "sourceMap": false,
-    "inlineSources": false,
-    "declaration": false,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "stripInternal": true,
-    "skipLibCheck": true
+    "outDir": "bundle",
+    "declaration": true
   },
   "files": [
     "index.ts",

@@ -1,28 +1,3 @@
-# Node generated files
 node_modules
-npm-debug.log
-# OS generated files
-Thumbs.db
-.DS_Store
-# Ignored files
-*.ts
-!*.d.ts
-
-/typings.json
-/typings/
-/node_modules/
-/.gitignore
-/.npmignore
-/.travis.yml
-
-/test
-/karma.conf.js
-/karma-test-shim.js
-
-/rollup.config.js
-/rollup-min.config.js
-
-/systemjs.config.js
-
-/tsconfig.json
-/tsconfig-build.json
+src
+tsconfig.json

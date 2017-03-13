@@ -1,1 +1,1 @@
-export { NgDaumAddressModule } from './da.module';
+export * from './da.module';

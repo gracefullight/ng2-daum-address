@@ -4,7 +4,8 @@
   "description": "Daum Address API for Angular2",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf bundle && tsc",
+    "prepublish": "npm run build"
   },
   "author": "GracefulLight",
   "license": "MIT",
@@ -22,6 +23,14 @@
     "@angular/common": "^2.4.0"
   },
   "devDependencies": {
-    "typescript": "^2.2.1"
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "es6-promise": "^4.1.0",
+    "es6-shim": "^0.35.3",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "typescript": "^2.2.1",
+    "zone.js": "^0.7.2"
   }
 }
