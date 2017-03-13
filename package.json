@@ -1,6 +1,6 @@
 {
   "name": "ng2-daum-address",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Daum Address API for Angular2",
   "main": "index.js",
   "scripts": {

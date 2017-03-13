@@ -12,7 +12,6 @@ declare var daum: any;
 const url = "https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js?autoload=false";
 
 @Component({
-  moduleId: module.id,
   selector: 'btn-daum-address',
   template: `<button
               type="button"
