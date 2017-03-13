@@ -1,0 +1,27 @@
+{
+  "name": "ng2-daum-address",
+  "version": "1.0.1",
+  "description": "Daum Address API for Angular2",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "author": "GracefulLight",
+  "license": "MIT",
+  "typings": "./index.d.ts",
+  "keywords": [
+    "angular2",
+    "ng2",
+    "Daum",
+    "DaumAddress",
+    "daumapi"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  }
+}
