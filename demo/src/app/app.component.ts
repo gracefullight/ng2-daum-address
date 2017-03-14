@@ -22,11 +22,10 @@ export class AppComponent {
   ){ }
 
   daumAddressOptions = {
-    class: ['btn', 'btn-primary']
+    class: ['btn', 'btn-primary'],
   }
 
   setDaumAddressApi(data: any){
-    console.log(data);
     this.addrForm.patchValue({
       zip: data.zip,
       addr: data.addr,

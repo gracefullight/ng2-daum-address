@@ -74,7 +74,7 @@ export class DaumAddressComponent implements OnInit{
 
   private openDaumApi(){
     let self = this;
-    if(!this.options || this.options.type==='popup'){
+    if(!this.options || (!this.options.type || this.options.type==='popup')){
       daum.postcode.load(() => {
         new daum.Postcode({
             oncomplete: (data)=> self.daumApiCallback(data)
