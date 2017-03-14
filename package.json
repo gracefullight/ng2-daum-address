@@ -1,6 +1,6 @@
 {
   "name": "ng2-daum-address",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Daum Address API for Angular2",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,15 @@
     "DaumAddress",
     "daumapi"
   ],
+  "repository":{
+    "type" : "git",
+    "url" : "https://github.com/brendaniel/ng2-daum-address.git"
+  },
+  "bugs": {
+    "url": "http://github.com/brendaniel/ng2-daum-address/issues",
+    "email": "eks012@gmail.com"
+  },
+  "homepage": "https://brendaniel.github.io/ng2-daum-address/",
   "peerDependencies": {
     "@angular/core": "^2.4.0",
     "@angular/compiler": "^2.4.0",
