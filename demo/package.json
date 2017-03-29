@@ -24,7 +24,7 @@
     "@angular/platform-server": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
-    "ng2-daum-address": "^1.1.1",
+    "ng2-daum-address": "^1.1.3",
     "rxjs": "^5.1.0",
     "typescript": "^2.2.2",
     "zone.js": "^0.8.5"
