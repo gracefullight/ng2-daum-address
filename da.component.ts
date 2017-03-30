@@ -24,8 +24,8 @@ export class DaumAddressComponent implements OnInit{
   @Output() result = new EventEmitter<Object>();
   @Input() options: any;
 
+  public styleClass: String;
   private el: ElementRef;
-  private styleClass: String;
   private debug: false;
   constructor(el: ElementRef) {
     this.el = el;
@@ -72,7 +72,7 @@ export class DaumAddressComponent implements OnInit{
     });
   }
 
-  private openDaumApi(){
+  openDaumApi(){
     let self = this;
     if(!this.options || (!this.options.type || this.options.type==='popup')){
       daum.postcode.load(() => {
