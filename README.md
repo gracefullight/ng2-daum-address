@@ -1,6 +1,6 @@
 # ng2-daum-address
 
-> 앵귤러2를 위한 다음 주소 검색 API
+> 앵귤러4를 위한 다음 주소 검색 API
 
 [![NPM Version][npm-image]][npm-url]
 [![Downloads][npm-downloads-image]][npm-downloads-url]
@@ -8,11 +8,11 @@
 ## 설치
 
 ```bash
-npm i --save ng2-daum-address
+yarn add ng2-daum-address
 ```
 **1.1.1버전부터 안정적으로 사용하실 수 있습니다.**
 
-**1.1.3버전부터 앵귤러2의 4버전을 이용하셔야합니다.**
+**1.1.3버전부터 앵귤러4를 이용하셔야합니다.**
 
 ## 사용법
 
