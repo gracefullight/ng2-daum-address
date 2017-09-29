@@ -83,6 +83,6 @@ setDaumAddressApi(data){
 
 [npm-image]: https://img.shields.io/npm/v/ng2-daum-address.svg
 [npm-url]: https://npmjs.org/package/ng2-daum-address
-[npm-downloads-image]: http://img.shields.io/npm/dm/ng2-daum-address.svg
+[npm-downloads-image]: http://img.shields.io/npm/dt/ng2-daum-address.svg
 [npm-downloads-url]: https://npmjs.org/package/ng2-daum-address
 [example-page]: https://ng2-daum-address.firebaseapp.com/
