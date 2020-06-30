@@ -4,6 +4,6 @@ import { DaumAddressComponent } from './da.component';
 
 @NgModule({
   exports: [DaumAddressComponent],
-  declarations: [ DaumAddressComponent ],
+  declarations: [DaumAddressComponent],
 })
-export class NgDaumAddressModule { }
+export class NgDaumAddressModule {}
