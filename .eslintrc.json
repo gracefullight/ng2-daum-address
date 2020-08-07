@@ -10,8 +10,11 @@
       "version": "detect"
     },
     "import/resolver": {
-      "node": { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+      "node": { "extensions": [".js", ".ts"] }
     }
+  },
+  "globals": {
+    "daum": "readonly"
   },
   "plugins": ["@typescript-eslint", "import", "prettier"],
   "extends": [

@@ -51,7 +51,7 @@ export class DaumAddressComponent implements OnInit {
     this.el = el;
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.debug =
       this.options && this.options.debug ? this.options.debug : false;
     this.styleClass =
@@ -65,13 +65,13 @@ export class DaumAddressComponent implements OnInit {
     });
   }
 
-  private print(msg) {
+  private print(msg: string) {
     if (this.debug) {
       console.log(`[${Math.floor(new Date().getTime() / 1000)}]`, msg);
     }
   }
 
-  private daumApiCallback(data) {
+  private daumApiCallback(data): void {
     this.print(data);
     let fullAddr = '',
       extraAddr = '',
