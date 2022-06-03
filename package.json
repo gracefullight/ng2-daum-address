@@ -42,14 +42,14 @@
     ]
   },
   "peerDependencies": {
-    "@angular/core": "^4.4.7",
+    "@angular/core": "^11.0.5",
     "@angular/compiler": "^4.4.7",
     "@angular/common": "^4.4.7"
   },
   "devDependencies": {
     "@angular/common": "^4.4.7",
     "@angular/compiler": "^4.4.7",
-    "@angular/core": "^4.4.7",
+    "@angular/core": "^11.0.5",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
     "@typescript-eslint/eslint-plugin": "^3.8.0",
