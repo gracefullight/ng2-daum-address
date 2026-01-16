@@ -17,4 +17,4 @@ pnpm add @gracefullight/ng-daum-address
 
 ---
 
-새로운 패키지는 Angular 21+를 지원하며, 현대 벴전과 안정성 업데이트가 지속적으로 적용됩니다.
+새로운 패키지는 Angular 21+를 지원하며, 현대 버전과 안정성 업데이트가 지속적으로 적용됩니다.
